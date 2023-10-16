@@ -1,0 +1,27 @@
+{
+    "name": "floapps/ckfinder",
+    "description": "CKFinder 3 package",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "symfony/http-kernel": "^6.0",
+        "symfony/event-dispatcher": "^6.0",
+        "symfony/http-foundation": "^6.0",
+        "pimple/pimple": "^3.0",
+        "monolog/monolog": "~1.4,>=1.4.1",
+        "league/flysystem": "^3.0",
+        "league/flysystem-aws-s3-v3": "^3.0",
+        "ext-json": "*",
+        "ext-gd": "*",
+        "symfony/mime": "^5.4",
+        "friendsofphp/php-cs-fixer": "^3.11",
+        "league/flysystem-azure-blob-storage": "^3.0",
+        "spatie/flysystem-dropbox": "^2.0",
+        "league/flysystem-ftp": "^3.0",
+        "ext-ftp": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "classmap": ["../../../modules/files/widgets/ckfinder/src/src/CKSource/CKFinder/"]
+    }
+}
